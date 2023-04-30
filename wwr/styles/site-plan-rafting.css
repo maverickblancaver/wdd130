@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Ysabeau:wght@600&display=swap');
 
+
 main:root {
     --primary-color: #3a5a40
     --secondary-color: #588157
@@ -17,8 +18,6 @@ main:root {
 
 body {
     font-family: var(--paragraph-font);
-    m_____: _____;
-    p_____: _____;
 }
 
 h1, h2, h3, h4, h5, h6 {
