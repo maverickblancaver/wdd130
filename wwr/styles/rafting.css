@@ -12,11 +12,11 @@ div img  {
     position: absolute;
     display: block;
     width: 100%;
-    height: ;
+    height: auto;
 }
 
-div p img{
-    position:absolute;
+div article p img{
+    
     width: auto;
     height: auto;
     float: right;
@@ -33,7 +33,7 @@ div p{
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
-    background-color: #ddd;
+    background-color: #dddddd68;    
     color: #000;
 }
 
