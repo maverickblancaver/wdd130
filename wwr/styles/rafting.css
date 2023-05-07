@@ -16,7 +16,7 @@ div img  {
 }
 
 div article p img{
-    
+    position: absolute;
     width: auto;
     height: auto;
     float: right;
