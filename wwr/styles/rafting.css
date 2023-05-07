@@ -17,8 +17,8 @@ div img  {
 
 div article p img{
     position: absolute;
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 200px;
     float: right;
 }
 
