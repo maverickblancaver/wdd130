@@ -7,13 +7,22 @@ main:root {
     --accent1-color: #a3b18a
     --accent2-color: #dad7cd
 
-    --heading-font: 'Ysabeau', serif;
-    --paragraph-font: 'Source Sans Pro', serif: 
-
     --nav-background-color: #3a5a40
     --nav-link-color: #588157
     --nav-hover-link-color: #a3b18a 
     --nav-hover-background-color: #dad7cd 
+
+    font-family : 'Source Sans Pro';
+    font-style : normal;
+    font-weight : 300;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zAkA.ttf) format('truetype');
+
+    font-family : 'Ysabeau';
+    font-style : normal;
+    font-weight : 600;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/ysabeau/v1/kmKiZqEiBAXLcnuMvjZNI_5FGeJet7NIDzYw.ttf) format('truetype');
 }
 
 header nav {
