@@ -25,6 +25,11 @@ header nav {
     
 }
 
+header img{
+    width: 150px;
+    height: 150px;
+}
+
 main h1 {
     position: absolute;
     float:inherit;
