@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<html>
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+  <h1>HTML and CSS Quiz</h1>
+  <form action="submit_quiz.php" method="POST">
+    <div>
+      <label for="q1">Question 1: What does the acronym CSS stand for?</label>
+      <input type="text" name="q1" id="q1" required>
+    </div>
+    <div>
+      <label for="q2">Question 2: How are id and class attribute selected in CSS?</label>
+      <textarea name="q2" id="q2" required></textarea>
+    </div>
+    <div>
+      <label for="q3">Question 3: Which of the following is a valid CSS comment?</label>
+      <select name="q3" id="q3" required>
+        <option value="" selected disabled>Choose One...</option>
+        <option value="option1">/* This is a valid CSS comment */</option>
+        <option value="option2">/* You can use comments to describe your styles and provide additional information */</option>
+        <option value="option3">// This is a comment valid for this css part</option>
+      </select>
+    </div>
+    <div>
+      <label for="q4">Question 4: What is the bottom margin given this declaration? margin: 10px 15px 5 px;</label>
+      <input type="number" name="q4" id="q4" required>
+    </div>
+    <button type="submit">Submit Quiz</button>
+  </form>
+</body>
+</html>
