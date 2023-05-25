@@ -114,6 +114,21 @@ p{
     padding: 0;
 }
 
+.profile1{
+    height: 75px;
+    width: 75px;
+}
+
+.profile2{
+    height: 75px;
+    width: 75px;
+}
+
+.profile3{
+    height: 75px;
+    width: 75px;
+}
+
 
 footer{
     background-color: steelblue;
