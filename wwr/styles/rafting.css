@@ -1,17 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Ysabeau:wght@600&display=swap");
 
 
-main:root {
-    --primary-color: #3a5a40
-    --secondary-color: #588157
-    --accent1-color: #a3b18a
-    --accent2-color: #dad7cd
-
-    --nav-background-color: #3a5a40
-    --nav-link-color: #588157
-    --nav-hover-link-color: #a3b18a 
-    --nav-hover-background-color: #dad7cd 
-}
 
 
 @font-face {  
