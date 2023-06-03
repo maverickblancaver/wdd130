@@ -1,0 +1,99 @@
+/* styles/rafting.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set box-sizing to border-box for all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Set default font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Grid styles for header */
+header.grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+/* Navigation styles */
+header.grid nav {
+  display: flex;
+  gap: 20px;
+}
+
+/* Logo styles */
+header.grid img {
+  height: 40px;
+}
+
+/* Hero section styles */
+.main .hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.main .hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.main .hero .box {
+  margin-top: 20px;
+}
+
+.main .hero .box img {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+/* Section styles */
+.main section {
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+
+.main section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.main section p {
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer img {
+  height: 20px;
+}
