@@ -34,51 +34,26 @@ header img{
     height: 150px;
 }
 
-main h1 {
-    position: center;
-    float:inherit;
-    color: aliceblue;
-}
+.hero h1{
 
-div{
-    position: relative;
+    color: steelblue;
 }
 
 
-.rafting_20{
-    position: inherit;
-    width: 100px;
-    height: 100px;
-    float: right;
-}
-
-div p{
+.hero_text {
     position: absolute;
-    top: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 50%;
+    padding: 25px;
+    color: ;
 }
 
-.rafting_58{
-   display: block;
-   width: 100%;
-   height: auto;
-}
-
-
-.hero{
-    position: inherit;
-}
-
-
-.box {
-    margin: 2rem;
-    border: 1px solid rgba(0, 0, 0, .1);
-    padding: 3rem;
-    background-color: #dddddd68;    
-    color: #000;
+.hero img{
     position: relative;
-   
+    width: 100%;
+    height: auto;
 }
+
+
 
 
 .facebook {
@@ -96,39 +71,6 @@ div p{
     height: 50px;
 }
 
-.ad_1{
-    width: 100px;
-    height: 100px;
-}
-
-.ad_2{
-    width: 100px;
-    height: 100px;
-}
-
-.ad_3{
-    width: 100px;
-    height: 100px;
-}
-
-p{
-    padding: 0;
-}
-
-.profile1{
-    height: 75px;
-    width: 75px;
-}
-
-.profile2{
-    height: 75px;
-    width: 75px;
-}
-
-.profile3{
-    height: 75px;
-    width: 75px;
-}
 
 
 footer{
