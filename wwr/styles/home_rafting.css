@@ -1,5 +1,5 @@
 /* Reset default margin and padding */
-body, h1, h2, p {
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
   }
@@ -37,67 +37,96 @@ body, h1, h2, p {
     height: 50px;
     width: auto;
   }
+/* Hero section */
+.hero {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  width: 100%;
   
-  /* Main styles */
-  .main {
-    padding: 20px;
-  }
-  
-  .hero {
-    position: relative;
-    text-align: center;
-  }
-  
-  .hero h1 {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .rafting_58 {
-    width: 100%;
-    height: auto;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .hero_text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    width: 80%;
-    max-width: 400px;
-  }
-  
-  .hero_text h2 {
-    font-size: 24px;
-    color: #333;
-  }
-  
-  /* Footer styles */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  footer p {
-    margin-bottom: 10px;
-  }
-  
-  footer nav a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 10px;
-  }
-  
-  footer img {
-    height: 20px;
-    width: auto;
-    margin-right: 5px;
-  }
-  
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Content pieces */
+.content-piece {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.content-piece h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content-piece p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.content-piece ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Image gallery */
+.image-gallery {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.image-gallery h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.gallery-image {
+  width: calc(50% - 10px);
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer nav a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
