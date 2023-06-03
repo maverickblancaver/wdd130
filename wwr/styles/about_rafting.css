@@ -1,99 +1,122 @@
-/* styles/rafting.css */
-
 /* Reset default margin and padding */
-* {
+body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
 
-/* Set box-sizing to border-box for all elements */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Set default font family and size */
+/* Global styles */
 body {
   font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-/* Grid styles for header */
-header.grid {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  padding: 10px;
   background-color: #f2f2f2;
 }
 
-/* Navigation styles */
-header.grid nav {
+.grid {
+  display: grid;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
 }
 
-/* Logo styles */
-header.grid img {
-  height: 40px;
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
-/* Hero section styles */
-.main .hero {
+nav img {
+  height: 50px;
+  width: auto;
+}
+
+/* Main styles */
+.main {
+  padding: 20px;
+}
+
+.hero {
+  position: relative;
   text-align: center;
-  padding: 50px;
-  background-color: #f9f9f9;
 }
 
-.main .hero h1 {
+.hero h1 {
   font-size: 36px;
+  color: #333;
   margin-bottom: 20px;
 }
 
-.main .hero .box {
+.rafting_58 {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: #fff;
+  padding: 20px;
   margin-top: 20px;
 }
 
-.main .hero .box img {
-  display: block;
-  max-width: 100%;
-  margin: 20px auto;
+.box img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin-top: 20px;
 }
 
-/* Section styles */
-.main section {
-  padding: 50px;
-  background-color: #f2f2f2;
+section {
+  padding: 20px;
 }
 
-.main section h2 {
-  font-size: 28px;
+section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section p {
   margin-bottom: 20px;
 }
 
-.main section p {
-  margin-bottom: 20px;
+.ad_1,
+.ad_2,
+.ad_3 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin-top: 20px;
 }
 
 /* Footer styles */
 footer {
+  background-color: #333;
+  color: #fff;
   padding: 20px;
-  background-color: #f2f2f2;
+  text-align: center;
 }
 
 footer p {
-  text-align: center;
   margin-bottom: 10px;
 }
 
-footer nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
 }
 
 footer img {
   height: 20px;
+  width: auto;
+  margin-right: 5px;
 }
