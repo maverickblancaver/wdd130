@@ -37,6 +37,7 @@ header img{
 main h1 {
     position: absolute;
     float:inherit;
+    color: aliceblue;
 }
 
 div{
